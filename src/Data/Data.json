@@ -91,7 +91,7 @@
         "allergeni": ["Latte"]
       }
     ],
-    "PrimiPiatti": [
+    "Piatti": [
       {
         "id": 11,
         "nome_prodotto": "Spaghetti alla Carbonara",

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     // Combina tutti gli oggetti di prodotto in un array
-    const allItems = [...Data.Pizza, ...Data.PrimiPiatti, ...Data.Dolci, ...Data.Fritti, ...Data.Forno];
+    const allItems = [...Data.Pizza, ...Data.Piatti, ...Data.Dolci, ...Data.Fritti, ...Data.Forno];
     setIndex(allItems);
   }, []);
 

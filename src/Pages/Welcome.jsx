@@ -7,7 +7,7 @@ import CarouselComponent from '../Components/CarouselComponent';
 const Welcome = () => {
   return (
     <>
-      <div className="bg-gray-100 text-gray-800 p-6">
+      <div className="bg-red-200 text-gray-800 p-6">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl font-bold mb-8 text-purple-700">Benvenuti al Nostro Forno!</h1>
           <p className="text-xl mb-10">
@@ -32,7 +32,10 @@ const Welcome = () => {
               </div>
             ))}
           </div>
+
+          <div className='w-full flex justify-center'>
             <CarouselComponent/>
+          </div>
           <div className="bg-purple-700 text-white p-10 rounded-lg shadow-lg">
             <h2 className="text-3xl font-bold mb-6">Servizi Offerti</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">

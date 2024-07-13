@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PizzaCard = ({ pizza }) => {
   return (
+    <Link to={`/pizza/${pizza.id}`}>
+
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white m-4 transform transition duration-500 hover:scale-105 hover:shadow-xl">
       <img className="w-full h-48 object-cover" src={pizza.images} alt={pizza.nome_prodotto} />
       <div className="px-6 py-4">
@@ -12,6 +15,7 @@ const PizzaCard = ({ pizza }) => {
         <p className="text-gray-700 text-lg"><strong>Prezzo:</strong> €{pizza.prezzo_al_pezzo.toFixed(2)}</p>
       </div>
     </div>
+    </Link>
   );
 };
 

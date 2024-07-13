@@ -42,12 +42,12 @@ function CarouselComponent() {
       animation="slide"
       indicators
       navButtonsAlwaysVisible
-      className="my-10"
+      className="my-10 w-[500px]"
     >
       {items.map((item, index) => (
         <Paper
           key={index}
-          className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+          className="bg-white shadow-lg rounded-lg overflow-hidden "
         >
           <img src={item.img} alt={item.title} className="w-full h-48 object-cover" />
           <div className="p-6">

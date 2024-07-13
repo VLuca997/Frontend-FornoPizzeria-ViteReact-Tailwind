@@ -4,7 +4,7 @@ import Data from '../../Data/Data.json';
 
 const Show = () => {
   const { id } = useParams();
-  const allItems = [...Data.Pizza, ...Data.PrimiPiatti, ...Data.Dolci, ...Data.Fritti];
+  const allItems = [...Data.Pizza, ...Data.Piatti, ...Data.Dolci, ...Data.Fritti,...Data.Forno];
   const singleElement = allItems.find(single => single.id === parseInt(id));
 
   if (!singleElement) {

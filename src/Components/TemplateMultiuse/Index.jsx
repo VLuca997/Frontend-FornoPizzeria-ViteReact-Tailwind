@@ -18,7 +18,7 @@ const Index = () => {
   useEffect(() => {
     const allItems = [
       ...Data.Pizza,
-      ...Data.PrimiPiatti,
+      ...Data.Piatti,
       ...Data.Dolci,
       ...Data.Fritti,
       ...Data.Forno

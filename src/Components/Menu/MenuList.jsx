@@ -7,7 +7,7 @@ const MenuList = () => {
   const numItemsToShow = 5;
 
   // Estrarre elementi da ciascuna categoria
-  const primiPiatti = Data.PrimiPiatti.slice(0, numItemsToShow);
+  const Piatti = Data.Piatti.slice(0, numItemsToShow);
   const pizze = Data.Pizza.slice(0, numItemsToShow);
   const dolci = Data.Dolci.slice(0, numItemsToShow);
   const fritti = Data.Fritti.slice(0, numItemsToShow);
@@ -19,7 +19,7 @@ const MenuList = () => {
       <div className="category">
         <h3 className="text-2xl font-bold text-left my-4 text-purple-700">Primi Piatti</h3>
         <div className="flex flex-wrap justify-center">
-          {primiPiatti.map((item) => (
+          {Piatti.map((item) => (
             <MenuCard key={item.nome_prodotto} item={item} />
           ))}
         </div>
