@@ -1,0 +1,645 @@
+{
+    "Pizza": [
+      {
+        "id": 1,
+        "nome_prodotto": "Margherita",
+        "prezzo_al_pezzo": 6.50,
+        "images": "margherita.jpg",
+        "descrizione": "Pizza classica con pomodoro, mozzarella e basilico.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Basilico", "Olio d'oliva"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 2,
+        "nome_prodotto": "Marinara",
+        "prezzo_al_pezzo": 5.50,
+        "images": "marinara.jpg",
+        "descrizione": "Pizza con pomodoro, aglio, origano e olio d'oliva.",
+        "ingredienti": ["Pomodoro", "Aglio", "Origano", "Olio d'oliva"],
+        "allergeni": []
+      },
+      {
+        "id": 3,
+        "nome_prodotto": "Quattro Stagioni",
+        "prezzo_al_pezzo": 8.50,
+        "images": "quattro_stagioni.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella, funghi, carciofi, prosciutto cotto e olive.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Funghi", "Carciofi", "Prosciutto Cotto", "Olive"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 4,
+        "nome_prodotto": "Capricciosa",
+        "prezzo_al_pezzo": 8.00,
+        "images": "capricciosa.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella, funghi, prosciutto cotto, carciofi e olive.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Funghi", "Prosciutto Cotto", "Carciofi", "Olive"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 5,
+        "nome_prodotto": "Diavola",
+        "prezzo_al_pezzo": 7.50,
+        "images": "diavola.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e salame piccante.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Salame Piccante"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 6,
+        "nome_prodotto": "Quattro Formaggi",
+        "prezzo_al_pezzo": 9.00,
+        "images": "quattro_formaggi.jpg",
+        "descrizione": "Pizza con mozzarella, gorgonzola, parmigiano e fontina.",
+        "ingredienti": ["Mozzarella", "Gorgonzola", "Parmigiano", "Fontina"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 7,
+        "nome_prodotto": "Vegetariana",
+        "prezzo_al_pezzo": 7.00,
+        "images": "vegetariana.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e verdure miste.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Verdure Miste"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 8,
+        "nome_prodotto": "Hawaiiana",
+        "prezzo_al_pezzo": 8.50,
+        "images": "hawaiiana.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella, prosciutto cotto e ananas.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto", "Ananas"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 9,
+        "nome_prodotto": "Boscaiola",
+        "prezzo_al_pezzo": 8.00,
+        "images": "boscaiola.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella, funghi e salsiccia.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Funghi", "Salsiccia"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 10,
+        "nome_prodotto": "Bufalina",
+        "prezzo_al_pezzo": 9.50,
+        "images": "bufalina.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella di bufala e basilico.",
+        "ingredienti": ["Pomodoro", "Mozzarella di Bufala", "Basilico"],
+        "allergeni": ["Latte"]
+      }
+    ],
+    "PrimiPiatti": [
+      {
+        "id": 11,
+        "nome_prodotto": "Spaghetti alla Carbonara",
+        "prezzo_al_pezzo": 8.00,
+        "images": "carbonara.jpg",
+        "descrizione": "Spaghetti con guanciale, uova, pecorino e pepe.",
+        "ingredienti": ["Spaghetti", "Guanciale", "Uova", "Pecorino", "Pepe"],
+        "allergeni": ["Latte", "Uova"]
+      },
+      {
+        "id": 12,
+        "nome_prodotto": "Lasagne alla Bolognese",
+        "prezzo_al_pezzo": 9.50,
+        "images": "lasagne.jpg",
+        "descrizione": "Lasagne con ragù di carne, besciamella e formaggi.",
+        "ingredienti": ["Lasagne", "Ragù di Carne", "Besciamella", "Formaggi"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 13,
+        "nome_prodotto": "Penne all'Arrabbiata",
+        "prezzo_al_pezzo": 7.00,
+        "images": "penne_arrabbiata.jpg",
+        "descrizione": "Penne con sugo piccante a base di pomodoro e peperoncino.",
+        "ingredienti": ["Penne", "Pomodoro", "Peperoncino", "Aglio", "Prezzemolo"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 14,
+        "nome_prodotto": "Ravioli di Ricotta e Spinaci",
+        "prezzo_al_pezzo": 9.00,
+        "images": "ravioli_ricotta_spinaci.jpg",
+        "descrizione": "Ravioli ripieni di ricotta e spinaci con burro e salvia.",
+        "ingredienti": ["Ravioli", "Ricotta", "Spinaci", "Burro", "Salvia"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 15,
+        "nome_prodotto": "Tagliatelle al Ragù",
+        "prezzo_al_pezzo": 8.50,
+        "images": "tagliatelle_ragu.jpg",
+        "descrizione": "Tagliatelle con ragù di carne e parmigiano.",
+        "ingredienti": ["Tagliatelle", "Ragù di Carne", "Parmigiano"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 16,
+        "nome_prodotto": "Tortellini in Brodo",
+        "prezzo_al_pezzo": 8.50,
+        "images": "tortellini_brodo.jpg",
+        "descrizione": "Tortellini ripieni di carne serviti in brodo di pollo.",
+        "ingredienti": ["Tortellini", "Brodo di Pollo", "Parmigiano"],
+        "allergeni": ["Latte", "Glutine", "Uova"]
+      },
+      {
+        "id": 17,
+        "nome_prodotto": "Gnocchi al Pesto",
+        "prezzo_al_pezzo": 7.50,
+        "images": "gnocchi_pesto.jpg",
+        "descrizione": "Gnocchi di patate con pesto di basilico e pinoli.",
+        "ingredienti": ["Gnocchi", "Pesto", "Basilico", "Pinoli"],
+        "allergeni": ["Latte", "Glutine", "Frutta a Guscio"]
+      },
+      {
+        "id": 18,
+        "nome_prodotto": "Cannelloni Ricotta e Spinaci",
+        "prezzo_al_pezzo": 9.00,
+        "images": "cannelloni_ricotta_spinaci.jpg",
+        "descrizione": "Cannelloni ripieni di ricotta e spinaci con salsa di pomodoro.",
+        "ingredienti": ["Cannelloni", "Ricotta", "Spinaci", "Salsa di Pomodoro"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 19,
+        "nome_prodotto": "Ragù di Cinghiale",
+        "prezzo_al_pezzo": 9.50,
+        "images": "ragu_cinghiale.jpg",
+        "descrizione": "Ragù di cinghiale servito con pasta fresca.",
+        "ingredienti": ["Pasta Fresca", "Ragù di Cinghiale", "Pecorino"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 20,
+        "nome_prodotto": "Spaghetti alle Vongole",
+        "prezzo_al_pezzo": 10.00,
+        "images": "spaghetti_vongole.jpg",
+        "descrizione": "Spaghetti con vongole, aglio e prezzemolo.",
+        "ingredienti": ["Spaghetti", "Vongole", "Aglio", "Prezzemolo"],
+        "allergeni": ["Glutine", "Molluschi"]
+      }
+    ],
+    "Dolci": [
+      {
+        "id": 21,
+        "nome_prodotto": "Tiramisu",
+        "prezzo_al_pezzo": 5.00,
+        "images": "tiramisu.jpg",
+        "descrizione": "Dessert classico con mascarpone, caffè e cacao.",
+        "ingredienti": ["Mascarpone", "Caffè", "Uova", "Zucchero", "Cacao"],
+        "allergeni": ["Latte", "Uova"]
+      },
+      {
+        "id": 22,
+        "nome_prodotto": "Panna Cotta",
+        "prezzo_al_pezzo": 4.50,
+        "images": "panna_cotta.jpg",
+        "descrizione": "Dolce al cucchiaio con panna e vaniglia.",
+        "ingredienti": ["Panna", "Vaniglia", "Zucchero", "Gelatina"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 23,
+        "nome_prodotto": "Cheesecake",
+        "prezzo_al_pezzo": 5.50,
+        "images": "cheesecake.jpg",
+        "descrizione": "Torta con base di biscotto e crema di formaggio.",
+        "ingredienti": ["Formaggio", "Biscotti", "Burro", "Zucchero"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 24,
+        "nome_prodotto": "Cannoli Siciliani",
+        "prezzo_al_pezzo": 4.00,
+        "images": "cannoli_siciliani.jpg",
+        "descrizione": "Dolci siciliani con ricotta e canditi.",
+        "ingredienti": ["Ricotta", "Biscotti", "Canditi", "Zucchero"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 25,
+        "nome_prodotto": "Profiteroles",
+        "prezzo_al_pezzo": 5.00,
+        "images": "profiteroles.jpg",
+        "descrizione": "Pasticcini ripieni di crema e ricoperti di cioccolato.",
+        "ingredienti": ["Pasta Choux", "Crema", "Cioccolato"],
+        "allergeni": ["Latte", "Glutine", "Uova"]
+      },
+      {
+        "id": 26,
+        "nome_prodotto": "Creme Brulee",
+        "prezzo_al_pezzo": 5.50,
+        "images": "creme_brulee.jpg",
+        "descrizione": "Crema cotta con una crosta di zucchero caramellato.",
+        "ingredienti": ["Panna", "Zucchero", "Uova", "Vaniglia"],
+        "allergeni": ["Latte", "Uova"]
+      },
+      {
+        "id": 27,
+        "nome_prodotto": "Babà al Rum",
+        "prezzo_al_pezzo": 5.50,
+        "images": "baba_rum.jpg",
+        "descrizione": "Dolce soffice imbevuto di rum e sciroppo.",
+        "ingredienti": ["Farina", "Zucchero", "Uova", "Rum"],
+        "allergeni": ["Glutine", "Uova"]
+      },
+      {
+        "id": 28,
+        "nome_prodotto": "Zabaione",
+        "prezzo_al_pezzo": 4.50,
+        "images": "zabaione.jpg",
+        "descrizione": "Crema a base di uova, zucchero e Marsala.",
+        "ingredienti": ["Uova", "Zucchero", "Marsala"],
+        "allergeni": ["Uova"]
+      },
+      {
+        "id": 29,
+        "nome_prodotto": "Strudel di Mele",
+        "prezzo_al_pezzo": 4.00,
+        "images": "strudel_mele.jpg",
+        "descrizione": "Strudel ripieno di mele, uvetta e cannella.",
+        "ingredienti": ["Mele", "Uvetta", "Cannella", "Pasta Sfoglia"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 30,
+        "nome_prodotto": "Biscotti di Pasta Frolla",
+        "prezzo_al_pezzo": 3.00,
+        "images": "biscotti_frolla.jpg",
+        "descrizione": "Biscotti croccanti e burrosi.",
+        "ingredienti": ["Farina", "Burro", "Zucchero", "Uova"],
+        "allergeni": ["Glutine", "Latte", "Uova"]
+      }
+    ],
+    "Fritti": [
+      {
+        "id": 31,
+        "nome_prodotto": "Arancini di Riso",
+        "prezzo_al_pezzo": 3.50,
+        "images": "arancini_riso.jpg",
+        "descrizione": "Riso fritto ripieno di ragù e formaggio.",
+        "ingredienti": ["Riso", "Ragù", "Formaggio", "Panatura"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 32,
+        "nome_prodotto": "Supplì",
+        "prezzo_al_pezzo": 3.00,
+        "images": "suppli.jpg",
+        "descrizione": "Polpettine di riso fritto con mozzarella.",
+        "ingredienti": ["Riso", "Mozzarella", "Panatura"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 33,
+        "nome_prodotto": "Crocchè di Patate",
+        "prezzo_al_pezzo": 2.50,
+        "images": "crocche_patate.jpg",
+        "descrizione": "Crocchette di patate fritte.",
+        "ingredienti": ["Patate", "Formaggio", "Panatura"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 34,
+        "nome_prodotto": "Mozzarella in Carrozza",
+        "prezzo_al_pezzo": 4.00,
+        "images": "mozzarella_carrozza.jpg",
+        "descrizione": "Mozzarella fritta tra due fette di pane.",
+        "ingredienti": ["Mozzarella", "Pane", "Farina", "Uova"],
+        "allergeni": ["Latte", "Glutine", "Uova"]
+      },
+      {
+        "id": 35,
+        "nome_prodotto": "Anelli di Cipolla",
+        "prezzo_al_pezzo": 2.00,
+        "images": "anelli_cipolla.jpg",
+        "descrizione": "Anelli di cipolla fritti.",
+        "ingredienti": ["Cipolla", "Farina", "Panatura"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 36,
+        "nome_prodotto": "Patatine Fritte",
+        "prezzo_al_pezzo": 3.00,
+        "images": "patatine_fritte.jpg",
+        "descrizione": "Patatine fritte croccanti.",
+        "ingredienti": ["Patate", "Olio"],
+        "allergeni": []
+      },
+      {
+        "id": 37,
+        "nome_prodotto": "Frittelle di Baccalà",
+        "prezzo_al_pezzo": 4.50,
+        "images": "frittelle_baccala.jpg",
+        "descrizione": "Frittelle croccanti di baccalà.",
+        "ingredienti": ["Baccalà", "Farina", "Olio"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 38,
+        "nome_prodotto": "Polpette di Carne",
+        "prezzo_al_pezzo": 4.00,
+        "images": "polpette_carne.jpg",
+        "descrizione": "Polpette di carne macinata fritte.",
+        "ingredienti": ["Carne Macinata", "Pane", "Uova", "Formaggio"],
+        "allergeni": ["Latte", "Glutine", "Uova"]
+      },
+      {
+        "id": 39,
+        "nome_prodotto": "Calamari Fritti",
+        "prezzo_al_pezzo": 6.00,
+        "images": "calamari_fritti.jpg",
+        "descrizione": "Calamari fritti con salsa aioli.",
+        "ingredienti": ["Calamari", "Farina", "Olio"],
+        "allergeni": ["Molluschi", "Glutine"]
+      },
+      {
+        "id": 40,
+        "nome_prodotto": "Frittura Mista",
+        "prezzo_al_pezzo": 7.50,
+        "images": "frittura_mista.jpg",
+        "descrizione": "Misto di fritti tra cui calamari, gamberi e patatine.",
+        "ingredienti": ["Calamari", "Gamberi", "Patatine", "Farina"],
+        "allergeni": ["Molluschi", "Glutine"]
+      }
+    ],
+    "Forno": [
+      {
+        "id": 41,
+        "nome_prodotto": "Pane Casereccio",
+        "prezzo_al_pezzo": 3.00,
+        "images": "pane_casereccio.jpg",
+        "descrizione": "Pane fatto in casa con crosta croccante e mollica soffice.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Sale"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 42,
+        "nome_prodotto": "Focaccia al Rosmarino",
+        "prezzo_al_pezzo": 4.00,
+        "images": "focaccia_rosmarino.jpg",
+        "descrizione": "Focaccia profumata con rosmarino e olio d'oliva.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Sale", "Rosmarino", "Olio d'oliva"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 43,
+        "nome_prodotto": "Pizza Bianca",
+        "prezzo_al_pezzo": 5.50,
+        "images": "pizza_bianca.jpg",
+        "descrizione": "Pizza bianca con olio d'oliva e sale marino.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Olio d'oliva", "Sale"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 44,
+        "nome_prodotto": "Panzerotti",
+        "prezzo_al_pezzo": 3.50,
+        "images": "panzerotti.jpg",
+        "descrizione": "Piccole calzoni fritti ripieni di pomodoro e mozzarella.",
+        "ingredienti": ["Farina", "Pomodoro", "Mozzarella", "Lievito"],
+        "allergeni": ["Glutine", "Latte"]
+      },
+      {
+        "id": 45,
+        "nome_prodotto": "Calzone",
+        "prezzo_al_pezzo": 7.00,
+        "images": "calzone.jpg",
+        "descrizione": "Calzone farcito con pomodoro, mozzarella, prosciutto e funghi.",
+        "ingredienti": ["Farina", "Pomodoro", "Mozzarella", "Prosciutto", "Funghi"],
+        "allergeni": ["Glutine", "Latte"]
+      },
+      {
+        "id": 46,
+        "nome_prodotto": "Torta Salata",
+        "prezzo_al_pezzo": 6.00,
+        "images": "torta_salata.jpg",
+        "descrizione": "Torta salata con ricotta e spinaci.",
+        "ingredienti": ["Farina", "Ricotta", "Spinaci", "Uova"],
+        "allergeni": ["Glutine", "Latte", "Uova"]
+      },
+      {
+        "id": 47,
+        "nome_prodotto": "Focaccia con Cipolle",
+        "prezzo_al_pezzo": 4.50,
+        "images": "focaccia_cipolle.jpg",
+        "descrizione": "Focaccia con cipolle caramellate e olio d'oliva.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Sale", "Cipolle", "Olio d'oliva"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 48,
+        "nome_prodotto": "Schiacciata con Lardo",
+        "prezzo_al_pezzo": 5.00,
+        "images": "schiacciata_lardo.jpg",
+        "descrizione": "Schiacciata con lardo e rosmarino.",
+        "ingredienti": ["Farina", "Lardo", "Rosmarino", "Olio d'oliva"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 49,
+        "nome_prodotto": "Crostini con Paté",
+        "prezzo_al_pezzo": 4.00,
+        "images": "crostini_pate.jpg",
+        "descrizione": "Crostini con paté di fegato e cipolla.",
+        "ingredienti": ["Pane", "Paté di Fegato", "Cipolla"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 50,
+        "nome_prodotto": "Grissini",
+        "prezzo_al_pezzo": 3.00,
+        "images": "grissini.jpg",
+        "descrizione": "Grissini croccanti al sesamo.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Sesamo"],
+        "allergeni": ["Glutine", "Sesamo"]
+      },
+      {
+        "id": 51,
+        "nome_prodotto": "Pizza con Salsiccia",
+        "prezzo_al_pezzo": 7.50,
+        "images": "pizza_salsiccia.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e salsiccia.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Salsiccia"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 52,
+        "nome_prodotto": "Pizza con Funghi",
+        "prezzo_al_pezzo": 6.80,
+        "images": "pizza_funghi.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e funghi freschi.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Funghi"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 53,
+        "nome_prodotto": "Pizza al Prosciutto Crudo",
+        "prezzo_al_pezzo": 8.00,
+        "images": "pizza_prosciutto_crudo.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e prosciutto crudo.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Crudo"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 54,
+        "nome_prodotto": "Pizza con Peperoni",
+        "prezzo_al_pezzo": 7.00,
+        "images": "pizza_peperoni.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e peperoni.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Peperoni"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 55,
+        "nome_prodotto": "Pizza ai Quattro Formaggi",
+        "prezzo_al_pezzo": 9.50,
+        "images": "pizza_quattro_formaggi.jpg",
+        "descrizione": "Pizza con quattro tipi di formaggio.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Gorgonzola", "Parmigiano", "Fontina"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 56,
+        "nome_prodotto": "Pane Focaccia con Olive",
+        "prezzo_al_pezzo": 4.50,
+        "images": "pane_focaccia_olive.jpg",
+        "descrizione": "Focaccia con olive nere e rosmarino.",
+        "ingredienti": ["Farina", "Acqua", "Lievito", "Olive Nere", "Rosmarino"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 57,
+        "nome_prodotto": "Pizza con Zucchine",
+        "prezzo_al_pezzo": 7.00,
+        "images": "pizza_zucchine.jpg",
+        "descrizione": "Pizza con pomodoro, mozzarella e zucchine.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Zucchine"],
+        "allergeni": ["Latte", "Glutine"]
+      },
+      {
+        "id": 58,
+        "nome_prodotto": "Pizza Margherita",
+        "prezzo_al_pezzo": 6.00,
+        "images": "pizza_margherita.jpg",
+        "descrizione": "Pizza classica con pomodoro, mozzarella e basilico.",
+        "ingredienti": ["Pomodoro", "Mozzarella", "Basilico"],
+        "allergeni": ["Latte", "Glutine"]
+      }
+    ],
+    "Bevande": [
+      {
+        "id": 59,
+        "nome_prodotto": "Acqua Naturale",
+        "prezzo_al_pezzo": 2.00,
+        "images": "acqua_naturale.jpg",
+        "descrizione": "Acqua minerale naturale.",
+        "ingredienti": [],
+        "allergeni": []
+      },
+      {
+        "id": 60,
+        "nome_prodotto": "Acqua Frizzante",
+        "prezzo_al_pezzo": 2.00,
+        "images": "acqua_frizzante.jpg",
+        "descrizione": "Acqua minerale frizzante.",
+        "ingredienti": [],
+        "allergeni": []
+      },
+      {
+        "id": 61,
+        "nome_prodotto": "Coca-Cola",
+        "prezzo_al_pezzo": 2.50,
+        "images": "coca_cola.jpg",
+        "descrizione": "Bibita gassata a base di cola.",
+        "ingredienti": ["Zucchero", "Caffeina", "Coloranti"],
+        "allergeni": []
+      },
+      {
+        "id": 62,
+        "nome_prodotto": "Fanta",
+        "prezzo_al_pezzo": 2.50,
+        "images": "fanta.jpg",
+        "descrizione": "Bibita gassata al gusto di arancia.",
+        "ingredienti": ["Zucchero", "Caffeina", "Coloranti", "Aroma d'Arancia"],
+        "allergeni": []
+      },
+      {
+        "id": 63,
+        "nome_prodotto": "Sprite",
+        "prezzo_al_pezzo": 2.50,
+        "images": "sprite.jpg",
+        "descrizione": "Bibita gassata al gusto di limone.",
+        "ingredienti": ["Zucchero", "Caffeina", "Coloranti", "Aroma di Limone"],
+        "allergeni": []
+      },
+      {
+        "id": 64,
+        "nome_prodotto": "Birra Artigianale",
+        "prezzo_al_pezzo": 5.00,
+        "images": "birra_artigianale.jpg",
+        "descrizione": "Birra artigianale a bassa fermentazione.",
+        "ingredienti": ["Malto", "Luppolo", "Acqua", "Lievito"],
+        "allergeni": ["Glutine"]
+      },
+      {
+        "id": 65,
+        "nome_prodotto": "Vino Rosso",
+        "prezzo_al_pezzo": 6.00,
+        "images": "vino_rosso.jpg",
+        "descrizione": "Vino rosso di qualità.",
+        "ingredienti": ["Uva"],
+        "allergeni": []
+      },
+      {
+        "id": 66,
+        "nome_prodotto": "Vino Bianco",
+        "prezzo_al_pezzo": 6.00,
+        "images": "vino_bianco.jpg",
+        "descrizione": "Vino bianco di qualità.",
+        "ingredienti": ["Uva"],
+        "allergeni": []
+      },
+      {
+        "id": 67,
+        "nome_prodotto": "Caffè",
+        "prezzo_al_pezzo": 1.50,
+        "images": "caffe.jpg",
+        "descrizione": "Caffè espresso.",
+        "ingredienti": ["Caffè"],
+        "allergeni": []
+      },
+      {
+        "id": 68,
+        "nome_prodotto": "Espresso Macchiato",
+        "prezzo_al_pezzo": 2.00,
+        "images": "espresso_macchiato.jpg",
+        "descrizione": "Espresso con una goccia di latte.",
+        "ingredienti": ["Caffè", "Latte"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 69,
+        "nome_prodotto": "Cappuccino",
+        "prezzo_al_pezzo": 3.00,
+        "images": "cappuccino.jpg",
+        "descrizione": "Caffè con latte e schiuma di latte.",
+        "ingredienti": ["Caffè", "Latte"],
+        "allergeni": ["Latte"]
+      },
+      {
+        "id": 70,
+        "nome_prodotto": "Latte Macchiato",
+        "prezzo_al_pezzo": 2.50,
+        "images": "latte_macchiato.jpg",
+        "descrizione": "Latte con una goccia di caffè.",
+        "ingredienti": ["Latte", "Caffè"],
+        "allergeni": ["Latte"]
+      }
+    ]
+  }
+  
